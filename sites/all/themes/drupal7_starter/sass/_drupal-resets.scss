@@ -1,0 +1,56 @@
+ul.links li {
+	padding: 0;
+	display: block;
+}
+
+ul.menu li {
+	margin: 0;
+}
+
+ul li.leaf {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+ul {
+	li.expanded,
+	li.collapsed,
+	li.leaf {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+.block ul {
+	padding: 0;
+}
+
+.item-list ul li {
+	margin: 0;
+	list-style: none;
+}
+
+.article ul.tabs,
+.article ul.primary {
+	margin: 20px 0;
+}
+
+.form-actions {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+}
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+	background-color: #f2dede;
+	border: 1px solid #eed3d7;
+	color: #b94a48;
+}
+
+.node-block a.contextual-links-trigger {
+	display: none;
+}

@@ -1,0 +1,64 @@
+/* line 1, ../sass/_drupal-resets.scss */
+ul.links li {
+  padding: 0;
+  display: block;
+}
+
+/* line 6, ../sass/_drupal-resets.scss */
+ul.menu li {
+  margin: 0;
+}
+
+/* line 10, ../sass/_drupal-resets.scss */
+ul li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+/* line 18, ../sass/_drupal-resets.scss */
+ul li.expanded,
+ul li.collapsed,
+ul li.leaf {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 25, ../sass/_drupal-resets.scss */
+.block ul {
+  padding: 0;
+}
+
+/* line 29, ../sass/_drupal-resets.scss */
+.item-list ul li {
+  margin: 0;
+  list-style: none;
+}
+
+/* line 35, ../sass/_drupal-resets.scss */
+.article ul.tabs,
+.article ul.primary {
+  margin: 20px 0;
+}
+
+/* line 39, ../sass/_drupal-resets.scss */
+.form-actions {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+/* line 48, ../sass/_drupal-resets.scss */
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  background-color: #f2dede;
+  border: 1px solid #eed3d7;
+  color: #b94a48;
+}
+
+/* line 54, ../sass/_drupal-resets.scss */
+.node-block a.contextual-links-trigger {
+  display: none;
+}

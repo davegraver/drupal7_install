@@ -1,0 +1,14 @@
+// Breakpoints - Default
+// ===================================================================================
+$desktop: max-width 1200px;
+$tablet-landscape: max-width 980px;
+$tablet-portrait: max-width 767px;
+$phone-landscape: max-width 480px;
+$phone-portrait: max-width 320px;
+
+// Breakpoints - Custom
+// ===================================================================================
+// Hides the slider at 600px and below
+$hide-slider: max-width 600px;
+// Moves social links to a new line at 465px and below
+$social-new-line: max-width 465px;

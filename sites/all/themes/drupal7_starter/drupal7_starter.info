@@ -1,0 +1,76 @@
+name = Drupal 7 Starter Theme
+description = Drupal 7 starter theme using Bootstrap 2.3.2
+core = 7.x
+
+; Bootstrap Includes
+; ====================================================================================
+;stylesheets[all][]								= css/bootstrap.min.css
+stylesheets[all][]								= bootstrap/css/alerts.css
+;stylesheets[all][]								= bootstrap/css/animations.css
+stylesheets[all][]								= bootstrap/css/body-type.css
+;stylesheets[all][]								= bootstrap/css/breadcrumbs.css
+;stylesheets[all][]								= bootstrap/css/button-groups-dropdowns.css
+stylesheets[all][]								= bootstrap/css/buttons.css
+stylesheets[all][]								= bootstrap/css/carousel.css
+;stylesheets[all][]								= bootstrap/css/close-icon.css
+;stylesheets[all][]								= bootstrap/css/code-pre.css
+;stylesheets[all][]								= bootstrap/css/collapse.css
+;stylesheets[all][]								= bootstrap/css/dropdowns.css
+stylesheets[all][]								= bootstrap/css/forms.css
+stylesheets[all][]								= bootstrap/css/grid.css
+stylesheets[all][]								= bootstrap/css/headings.css
+;stylesheets[all][]								= bootstrap/css/hero-unit.css
+;stylesheets[all][]								= bootstrap/css/icons.css
+;stylesheets[all][]								= bootstrap/css/labels-badges.css
+stylesheets[all][]								= bootstrap/css/layouts.css
+stylesheets[all][]								= bootstrap/css/media.css
+;stylesheets[all][]								= bootstrap/css/modals.css
+;stylesheets[all][]								= bootstrap/css/navbar.css
+stylesheets[all][]								= bootstrap/css/navs-tabs-pills.css
+stylesheets[all][]								= bootstrap/css/pager.css
+stylesheets[all][]								= bootstrap/css/pagination.css
+;stylesheets[all][]								= bootstrap/css/popovers.css
+;stylesheets[all][]								= bootstrap/css/progress-bars.css
+stylesheets[all][]								= bootstrap/css/reset.css
+stylesheets[all][]								= bootstrap/css/responsive.css
+stylesheets[all][]								= bootstrap/css/tables.css
+stylesheets[all][]								= bootstrap/css/thumbnails.css
+;stylesheets[all][]								= bootstrap/css/tooltips.css
+;stylesheets[all][]								= bootstrap/css/utilities.css
+;stylesheets[all][]								= bootstrap/css/wells.css
+
+; Theme
+; ====================================================================================
+stylesheets[all][]								= css/style.css
+;stylesheets-conditional[IE 9][all][]			= css/ie9.css
+;stylesheets-conditional[IE 8][all][]			= css/ie8.css
+;stylesheets-conditional[IE 7][all][]			= css/ie7.css
+
+; Bootstrap Scripts
+; ====================================================================================
+;scripts[]										= bootstrap/js/affix.min.js
+;scripts[]										= bootstrap/js/alert.messages.min.js
+scripts[]										= bootstrap/js/buttons.min.js
+scripts[]										= bootstrap/js/carousel.min.js
+;scripts[]										= bootstrap/js/collapse.min.js
+;scripts[]										= bootstrap/js/dropdowns.min.js
+;scripts[]										= bootstrap/js/modals.min.js
+;scripts[]										= bootstrap/js/popovers.min.js
+;scripts[]										= bootstrap/js/scrollspy.min.js
+;scripts[]										= bootstrap/js/togglable.tabs.min.js
+;scripts[]										= bootstrap/js/tooltips.min.js
+;scripts[]										= bootstrap/js/transitions.min.js
+;scripts[]										= bootstrap/js/typeahead.min.js
+
+; Scripts
+; ====================================================================================
+;scripts[]										= js/bootstrap.min.js
+
+; Regions
+; ====================================================================================
+regions[header]									= Header
+regions[main_menu]								= Main Menu
+regions[content_top]							= Content Top
+regions[content]								= Content
+regions[content_bottom]							= Content Bottom
+regions[footer]									= Footer
