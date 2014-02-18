@@ -11,4 +11,4 @@
 3. Update *sites/default/settings.php* with the name of the database
 
 4. From within the project folder, import the database: 
-`drush sqlc -y < ref_db/backup_drupal.sql`
+`drush sqlc -y < ref_db/drupal.sql`
