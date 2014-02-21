@@ -215,7 +215,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'db_drupal7',
+      'database' => 'drupal7_install',
       'username' => 'root',
       'password' => 'root',
       //'host' => 'localhost',
